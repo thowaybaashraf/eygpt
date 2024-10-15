@@ -1,0 +1,53 @@
+.root {
+    --mainBlue: #3a6cf4;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+
+.social-icons a i{
+display: block;
+padding: 15px;
+
+}
+
+.format:hover {
+    transform: scale(1.1);
+
+}
+.format .inputs{
+    margin: 10px;
+    display: block;
+    float: left;
+}
+
+.imagegal{
+    background-color: antiquewhite;
+}
+.image :hover {
+  transform: scale(1.1);
+
+}
+.image {
+    display: inline;
+    float: left;
+    margin-block: 10px;
+} 
+.gallery {
+    display: inline;
+}
+
+.text {
+    padding: 20px;
+    float: inline-end;
+}
